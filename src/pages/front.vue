@@ -2,7 +2,7 @@
   <div class="main-container" v-show="$parent.loading" style="display: none;">
     <div class="useful-link no-print">
       <!--<a class="theme-link" href="/index2.html"></a>-->
-      <a class="github-button" href="https://github.com/eternityspring/eternityspring.github.io" title="查看源码">
+      <a class="github-button" href="https://github.com/eyasliu/resume" title="查看源码">
         <img src="/static/images/star.svg" alt="Github"><span>Star</span>
       </a>
     </div>

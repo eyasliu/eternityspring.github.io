@@ -49,7 +49,9 @@
           "content":[
             "重构管理后台项目，",
             "编写前端自动化构建脚本",
-            ""
+            "与产品沟通分析功能需求",
+            "安排下属与自身工作",
+            "功能开发与主导"
           ]
         }
       ],
@@ -66,7 +68,7 @@
       "time":"2016.2-2017.7",
       "title":"广州腾米克软件科技有限公司",
       "intro":"高级前端开发工程师",
-      "description":"ERP 系统开发与维护，与技术探索",
+      "description":"猎头行业专用 ERP 系统开发与维护，技术探索",
       "tips":[
         {
           "title":"主要业绩：",
@@ -75,8 +77,8 @@
             "ERP系统的新功能需求开发",
             "ERP系统定制的Chrome插件",
             "ERP系统的微信端开发，开发了3个大模块的微信端",
-            "ERP系统完全重构，技术选型与架构搭建",
-            ""
+            "ERP系统完全重构，技术选型与架构搭建"
+            
           ]
         }
       ],
@@ -93,59 +95,110 @@
       "time":"2014.11-2016.2",
       "title":"广州环亚信息科技有限公司",
       "intro":"开发工程师",
-      "description": "这是一家外包企业公司然后向微信运营方向转型的公司"
+      "description": "这家公司原本为外包企业网站，后逐步往微信运营方向转型，再后来往电子商务方向转型",
+      "tips": [
+        {
+          "title": "主要业绩：",
+          "content": [
+            "根据外包网站的需求先写html静态页，然后集成至WordPress程序模板",
+            "搭建LAMP服务器，维护外包网站服务器安全与稳定",
+            "负责给客户培训微信营销后台使用，维护微信营销账户",
+            "协助店铺设计师装修淘宝页面"
+          ]
+        }
+      ]
     }
 
   ],
   "skill":[
     {
-      "name":"Css",
-      "percent":"90%"
-    },
-    {
-      "name":"PhotoShop",
+      "name":"Css/Less/Scss",
       "percent":"80%"
     },
     {
-      "name":"JavaScript",
-      "percent":"75%"
-    },
-    {
-      "name":"Nodejs",
-      "percent":"60%"
-    },
-    {
-      "name":"MongoDB",
-      "percent":"60%"
-    },
-    {
-      "name":"Bootstrap",
+      "name":"JavaScript / ES6&7",
       "percent":"95%"
     },
     {
-      "name":"Angular",
-      "percent":"75%"
+      "name": "react / redux / webpack / babel",
+      "percent": "95%"
     },
     {
-      "name":"Vue",
-      "percent":"85%"
+      "name": "jQuery / requirejs",
+      "percent": "95%"
+    },
+    {
+      "name":"Nodejs / Sails.js / Egg.js",
+      "percent":"90%"
+    },
+    {
+      "name":"Mysql / Sqlite / Postgresql",
+      "percent":"50%"
+    },
+    {
+      "name":"Linux / Shell",
+      "percent":"80%"
+    },
+    {
+      "name":"Docker",
+      "percent":"70%"
+    },
+    {
+      "name": "Golang",
+      "percent": "40%"
     }
   ],
   "project":[
     {
-      "time":"2017.06-2017.08",
-      "title":"中科金服",
-      "intro":"一个B2P的借贷平台。",
-      "description":"一个金融平台正常维护，包括优惠券体验金以及各种不同产品的迭代。以及各种活动页面的制作和实现。",
+      "time": "2017.02-至今",
+      "title": "爱文档",
+      "intro": "完美的在线office, 一个创业小团队的项目",
+      "description": "提供 Web Office 服务的api和sdk便于企业客户集成，提供网盘供普通用户免费使用",
+      "tips": [
+        {
+          "title": "实现的功能：",
+          "content": [
+            "Web Office 的定制与优化",
+            "所有后端服务基于 nodejs 以微服务形式组合开发",
+            "系统迅速的集成至现有的业务系统",
+            "实现一个网盘并集成本服务供普通用户免费使用"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "技术栈：",
+          "content": [
+            "node.js",
+            "egg.js",
+            "sails.js",
+            "mysql",
+            "postgresql",
+            "docker",
+            "nginx",
+            "shell",
+            "less",
+            "webpack",
+            "gulp",
+            "antd",
+            "react",
+            "es6&7",
+            "babel"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2016.11-至今",
+      "title":"某企业私有化网盘管理后台",
+      "intro":"负责管理控制网盘系统行为。",
+      "description":"一个专注云文档的在线协作网盘，管理后台负责管理网盘的各种行为，以及管理后台的一些周边应用【内部系统，不方便透露更多】",
       "tips":[
         {
-          "title":"实现的主要功能：",
+          "title":"主要做的事：",
           "content":[
-            "加息券、体验金",
-            "亲子标",
-            "定融计划",
-            "活动页面",
-            "vue重构整个项目"
+            "安排并分配下属工作",
+            "开发功能模块"
           ]
         }
       ],
@@ -153,24 +206,61 @@
         {
           "title":"技术栈：",
           "content":[
-            "node.js","vue","scss","webpack","bootstrap"
+            "node.js",
+            "shell",
+            "less",
+            "webpack",
+            "gulp",
+            "antd",
+            "react",
+            "es6&7",
+            "babel"
           ]
         }
       ]
     },
     {
-      "time":"自毕业后",
-      "title":"个人网站",
-      "intro":"全栈开发的学习与研究",
-      "description":"自毕业后创建与维护一个个人网站。在学nodejs之前，是基于drupal做的。自己独立开发的主题，广受欢迎。在学习了nodejs后，后端基于nodejs的express和Mongodb，前端基于angularjs和bootstrap使用restful风格重做了一遍。历时1年。整个网站的迭代是我整个技术栈成长的缩影。",
+      "time":"2016.07 - 2017.04",
+      "title":"某网盘客户端",
+      "intro":"一个专注云文档的在线协作网盘客户端",
+      "description":"【内部系统，不方便透露更多】",
+      "tips":[
+        {
+          "title":"主要做的事：",
+          "content":[
+            "根据产品需求添加各种功能模块"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content": [
+            "node.js",
+            "shell",
+            "less",
+            "webpack",
+            "gulp",
+            "antd",
+            "react",
+            "es6&7",
+            "babel"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2016.01-2016.06",
+      "title":"ERP 微信端",
+      "intro":"将原本的ERP的部分功能移植到微信端",
+      "description":"原本的ERP趋于稳定，继而将几个最常用的模块移植到微信端，可更方便用户使用",
       "tips":[
         {
           "title":"实现的主要功能：",
           "content":[
-            "用户登录注册以及用户管理。",
-            "创建管理有序且有层级关系的教程文档。",
-            "针对注册用户订购网站会员的订单系统。",
-            "博客系统。"
+            "学习中心：展示学习资料，用于培训公司内的新同事。",
+            "人才模块：展示猎头行业的候选人。",
+            "公司模块：展示猎头行业的客户公司。"
           ]
         }
       ],
@@ -178,73 +268,52 @@
         {
           "title":"技术栈：",
           "content":[
-            "node.js","angular","scss","gulp","bootstrap","express","mongodb"
+            "react", "redux", "webpack", "babel"
           ]
         }
       ]
     },
     {
-      "time":"2015.02-2015.10",
-      "title":"听说通",
-      "intro":"一个K12领域在线教育产品",
-      "description":"在此期间参与了一个教育产品包括学生端、老师端、微信家长端以及学校管理员管理后台几个系统的前端方便的工作。微信家长端是基于vue.js制作，其他部分是基于angular和bootstrap利用gulp等一系列nodejs构建完成。",
-      "tips":[
-        {
-          "title":"实现的主要功能：",
-          "content":[
-            "老师端：根据现有内容库发布、批改作业。管理班级和学生等。",
-            "学生端：查看和完成老师布置作业。",
-            "家长端：通过微信公众号绑定和管理自己的孩子方便查看孩子的作业情况。",
-            "学校管理后台：管理老师学生教材等。"
-          ]
-        }
-      ],
+      "time":"2015.03-2016.06",
+      "title":"公司内部ERP系统",
+      "intro":"猎头行业的ERP系统",
+      "description":"猎头行业专用的ERP系统，为猎头展示候选人与公司，并提供猎头培训流程培养新人才，协助猎头管理整个流程事宜",
       "technology":[
         {
           "title":"技术栈：",
           "content":[
-            "node.js","angular","scss","gulp","bootstrap"
+            "jQuery", "require.js", "EventSource","gulp","bootstrap"
           ]
         }
       ]
     },
     {
-      "time":"2015.11-2016.08",
-      "title":"U学",
-      "intro":"一个闯关形式的在线教育产品",
-      "description":"与之前的听说通类似。如果之前的产品是淘宝模式，那么这个产品就是京东模式。同样包括学生端，老师端和微信家长端以及管理后台。除此之外，我们还利用ionic基于前端技术制作老师移动端分别打包成了android和ios应用。",
-      "technology":[
+      "time":"2014.11-2015.2",
+      "title":"外包企业网站",
+      "intro":"若干企业网站",
+      "description":"企业网站大多没什么技术含量，也没有展示的意义，不过很能锻炼了各方面的技能",
+      "technology": [
         {
-          "title":"技术栈：",
-          "content":[
-            "node.js","angular","scss","gulp","bootstrap"
+          "title": "技术栈：",
+          "content": [
+            "jQuery",
+            "PHP",
+            "Wordpress"
           ]
         }
       ]
-    },
-    {
-      "time":"2014.03-2015.01",
-      "title":"Trafish",
-      "intro":"一个入境游在线旅游产品",
-      "description":"这个产品是前后端混合开发的。都是写的jsp页面。完成了线上订购旅游产品的一个网站和管理订单和用户的管理后台。"
-    },
-    {
-      "time":"2017.10-2017.10",
-      "title":"黄龙客栈",
-      "intro":"一个聚会娱乐小程序。",
-      "description":"个人为主体的，业余做着玩的防止聚会无聊的小程序。在微信小程序中搜索'黄龙客栈'即可查看。"
     }
   ],
   "usually":[
     {
       "name":"GitHub",
-      "link":"https://github.com/eternityspring",
-      "description":"分享一些我的小作品 结交志同道合的朋友"
+      "link":"https://github.com/eyasliu",
+      "description":"代码分享"
     },
     {
       "name":"知乎",
-      "link":"https://www.zhihu.com/people/790313188",
-      "description":"搜索解决一些疑问 探索新奇"
+      "link":"https://www.zhihu.com/people/liu-yue-92-22-77",
+      "description":"看段子"
     },
     {
       "name":"MDN",
@@ -252,18 +321,14 @@
       "description":"查阅一些技术文档"
     },
     {
-      "name":"Behance",
-      "description":"寻找灵感探索新奇"
+      "name":"掘金",
+      "link": "https://juejin.im",
+      "description":"关注前端发展"
     },
     {
-      "name":"Dribbble",
-      "link":"https://dribbble.com/eternityspring",
-      "description":"寻找灵感探索新奇"
-    },
-    {
-      "name":"CodePen",
-      "link":"http://codepen.io/eternityspring",
-      "description":"探索和分享好的代码"
+      "name":"Infoq",
+      "link":"http://www.infoq.com/cn/",
+      "description":"关注软件新闻"
     }
   ]
 }
